@@ -1,11 +1,5 @@
 const twit = require('twit');
 const config = require('./config')
-
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-    console.log(`Our app is running on port ${ PORT }`);
-});
-
 const Twitter = new twit(config)
 
 const retweet = function() {
