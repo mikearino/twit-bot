@@ -37,7 +37,7 @@ const retweet = function() {
 // Grab and retweet as soon as bot starts
 retweet();
 // Retweet every hour
-setInterval(retweet, 3600000);
+setInterval(retweet, 86400000);
 
 const favoriteTweet = function () {
   const params = {
@@ -73,7 +73,7 @@ const favoriteTweet = function () {
 // Grab and favorite as soon as program is running
 favoriteTweet();
 // Fav a tweet every 60 minutes
-setInterval(favoriteTweet, 3600000)
+setInterval(favoriteTweet, 43200000)
 
 function ranDom(arr) {
   let index = Math.floor(Math.random()*arr.length);
